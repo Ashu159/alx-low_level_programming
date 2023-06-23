@@ -1,3 +1,2 @@
 #!/bin/bash
-cp ../sh2.sh .
-. ./sh2.sh
+export LD_PRELOAD="$PWD/../libgiga.so"
