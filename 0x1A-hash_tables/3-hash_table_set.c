@@ -1,4 +1,11 @@
 #include "hash_tables.h"
+/**
+ * set_pair - mallocs a key/value pair to the hash table.
+ * @key: the key, a string that cannot be empty.
+ * @value: the value associated with the key, can be an empty string.
+ *
+ * Return: pointer to the new node.
+ */
 void free_node(hash_node_t *node)
 {
 	free(node->key);
